@@ -20,7 +20,6 @@
     <Folder Include="Infrastructure\AI\" />
     <Folder Include="Infrastructure\OCR\" />
     <Folder Include="Infrastructure\BlobStorage\" />
-    <Folder Include="Shared\Results\" />
     <Folder Include="Shared\Extensions\" />
     <Folder Include="Configuration\" />
   </ItemGroup>
