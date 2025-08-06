@@ -12,7 +12,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Application\DTOs\" />
     <Folder Include="Domain\Entities\" />
     <Folder Include="Domain\ValueObjects\" />
     <Folder Include="Infrastructure\AI\" />

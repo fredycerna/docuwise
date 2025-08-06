@@ -4,5 +4,6 @@ namespace DocuWise.API.Application.Interfaces;
 
 public interface IDocumentService
 {
-    Task<Result<string>> RegisterDocumentAsync(string filename);
+    Task<Result<string>> RegisterDocumentMetadataAsync(string filename);
+    Task<Result> UploadDocumentAsync(string filename, Stream fileStream);
 }
