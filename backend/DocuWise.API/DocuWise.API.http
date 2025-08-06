@@ -1,0 +1,6 @@
+@DocuWise.API_HostAddress = http://localhost:5173
+
+GET {{DocuWise.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

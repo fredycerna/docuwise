@@ -1,0 +1,54 @@
+# -----------------------
+# .NET
+# -----------------------
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio
+.vs/
+.vscode/
+Generated_Code/
+
+# Rider
+.idea/
+
+# Logs
+*.log
+
+# Secrets
+appsettings.Development.json
+appsettings.Local.json
+*.secrets.json
+
+# Others
+*.DS_Store
+
+# -----------------------
+# Node (React + Vite)
+# -----------------------
+**/node_modules/
+**/dist/
+**/build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment
+.env
+.env.*.local
+
+# Vite
+.vite/
+
+# -----------------------
+# Mac / OS
+# -----------------------
+.DS_Store
+Thumbs.db

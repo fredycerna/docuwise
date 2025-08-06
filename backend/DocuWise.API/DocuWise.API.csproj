@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Application\Interfaces\" />
+    <Folder Include="Application\Services\" />
+    <Folder Include="Application\DTOs\" />
+    <Folder Include="Domain\Entities\" />
+    <Folder Include="Domain\ValueObjects\" />
+    <Folder Include="Infrastructure\AI\" />
+    <Folder Include="Infrastructure\OCR\" />
+    <Folder Include="Infrastructure\BlobStorage\" />
+    <Folder Include="Shared\Results\" />
+    <Folder Include="Shared\Extensions\" />
+    <Folder Include="Configuration\" />
+  </ItemGroup>
+
+</Project>
